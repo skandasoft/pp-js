@@ -1,0 +1,25 @@
+{
+  "name": "pp-js",
+  "main": "./lib/pp-js",
+  "version": "0.0.1",
+  "description": "Preview Javascript To ...",
+  "keywords": [
+    "Coffeescript",
+    "Javascript"
+  ],
+  "consumedServices": {
+    "pp": {
+      "versions": {
+        ">=0.0.0": "consumeAddPreview"
+      }
+    }
+  },
+  "repository": "https://github.com/skandasoft/pp-js",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "js2coffee": "^2.2.0"
+  }
+}
